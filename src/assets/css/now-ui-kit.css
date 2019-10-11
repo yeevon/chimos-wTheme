@@ -2555,9 +2555,14 @@ p {
   font-weight: 300;
   font-size: 1.2em; }
 
+h1.title{
+  color: blue;
+}
+
 .title {
   font-weight: 700;
-  padding-top: 30px; }
+  padding-top: 30px;
+  color: blue; }
   .title.title-up {
     text-transform: uppercase; }
     .title.title-up a {
@@ -3247,7 +3252,7 @@ Created using IcoMoon - icomoon.io
   .navbar a {
     vertical-align: middle; }
     .navbar a:not(.btn):not(.dropdown-item) {
-      color: #FFFFFF; }
+      color: rgb(20, 18, 18); }
   .navbar p {
     display: inline-block;
     margin: 0;
