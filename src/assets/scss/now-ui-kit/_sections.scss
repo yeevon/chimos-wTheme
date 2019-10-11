@@ -117,7 +117,7 @@
     padding: 50px 0;
 
     .image-container{
-        height: 335px;
+        height: 600px;
         position: relative;
         background-position: center center;
         background-size: cover;
@@ -129,6 +129,7 @@
         }
 
         &.image-right{
+            height: 335px;
             z-index: 2;
 
             + h3.title{
@@ -137,6 +138,7 @@
         }
 
         &.image-left{
+            height: 335px;
             z-index: 1;
         }
 
