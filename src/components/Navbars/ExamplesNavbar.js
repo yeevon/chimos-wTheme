@@ -66,24 +66,24 @@ function ExamplesNavbar() {
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
               <DropdownItem header tag="a">
-                Dropdown header
+                Services
               </DropdownItem>
               <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Action
-              </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Another action
-              </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Something else here
+                Contact Us
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Separated link
+              <DropdownItem header tag="a">
+                Social Media
               </DropdownItem>
-              <DropdownItem divider></DropdownItem>
+              {/* <DropdownItem divider></DropdownItem> */}
               <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                One more separated link
+                Twitter
+              </DropdownItem>
+              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
+                Facebook
+              </DropdownItem>
+              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
+                Instagram
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
@@ -93,7 +93,7 @@ function ExamplesNavbar() {
               // target="_blank"
               id="navbar-brand"
             >
-              Menu
+              Chimons Gas Limited
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
@@ -118,14 +118,14 @@ function ExamplesNavbar() {
             navbar
           >
             <Nav navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to="/index" tag={Link}>
                   About Us
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Have an issue?
+                  Contact Us
                 </NavLink>
               </NavItem>
               <NavItem>
