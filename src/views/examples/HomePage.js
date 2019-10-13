@@ -109,12 +109,12 @@ function LandingPage() {
                     that all industry standards are met as we strive to provide 
                     an unbeatable assurance of quality for our products and services.
                   </p>
-                  <h5 style={{
+                  <h7 style={{
                         fontFamily: "Bradley Hand ITC", 
                         fontWeight: "bold"
                       }}>
                     RETAIL MARKETING AND DISTRIBUTION OF LPG AND ITS ACCESSORIES.
-                  </h5>
+                  </h7>
                   <p>
                     The energy demands of LPG consumers nationwide are on the increase, 
                     which is why at Chimons Gas Limited we are in business to mitigate 

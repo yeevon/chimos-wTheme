@@ -25,6 +25,7 @@
   color: $white-color;
   position: relative;
   overflow: hidden;
+//   left: 15vw;
 
   & > .content{
     margin-top: 12%;
@@ -35,6 +36,9 @@
   &.page-header-small{
       min-height: 60vh;
       max-height: 440px;
+      height: 43.5em;
+      width: 83.75em;
+      left: 6vw;
   }
 
   &:before{
@@ -51,6 +55,9 @@
         position: absolute;
         background-size: cover;
         background-position: center center;
+        // border-radius: 80%;
+        // border-block-color: white;
+        // background-color: blue;
         width: 100%;
         height: 100%;
         z-index: -0.5;
@@ -121,7 +128,7 @@
         position: relative;
         background-position: center center;
         background-size: cover;
-        box-shadow: $box-shadow-raised;
+        // box-shadow: $box-shadow-raised;
         border-radius: .25rem;
 
         & + .category{
@@ -131,6 +138,7 @@
         &.image-right{
             height: 335px;
             z-index: 2;
+            box-shadow: $box-shadow-raised;
 
             + h3.title{
                 margin-top: 120px;
@@ -140,6 +148,7 @@
         &.image-left{
             height: 335px;
             z-index: 1;
+            box-shadow: $box-shadow-raised;
         }
 
         &:nth-child(2){

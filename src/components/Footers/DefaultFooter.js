@@ -11,7 +11,7 @@ function DefaultFooter() {
     <>
       <footer className="footer footer-default">
         <Container>
-          <nav>
+          {/* <nav>
             <ul>
               <li>
                 <a
@@ -38,9 +38,10 @@ function DefaultFooter() {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
           <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
+            Copyrights © Chimons Gas Limited 2010. All rights Reserved.
+            {/* © {new Date().getFullYear()}, Designed by{" "}
             <a
               href="https://www.invisionapp.com?ref=nukr-default-footer"
               target="_blank"
@@ -54,7 +55,7 @@ function DefaultFooter() {
             >
               Creative Tim
             </a>
-            .
+            . */}
           </div>
         </Container>
       </footer>

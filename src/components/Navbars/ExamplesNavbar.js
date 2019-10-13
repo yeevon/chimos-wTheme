@@ -76,14 +76,38 @@ function ExamplesNavbar() {
                 Social Media
               </DropdownItem>
               {/* <DropdownItem divider></DropdownItem> */}
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
+              <DropdownItem>
+                <NavLink
+                  href="https://twitter.com/chimonsgas?lang=en"
+                  target="_blank"
+                  id="twitter-tooltip"
+                >
+                  <i className="fab fa-twitter"></i>
+                  <p className="d-lg-none d-xl-none">Twitter</p>
+                </NavLink>
                 Twitter
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
+              <DropdownItem>
+                <NavLink
+                  href="http://www.facebook.com/Chimonsgas"
+                  target="_blank"
+                  id="facebook-tooltip"
+                >
+                  <i className="fab fa-facebook-square"></i>
+                  <p className="d-lg-none d-xl-none">Facebook</p>
+                </NavLink>
                 Facebook
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Instagram
+              <DropdownItem>
+                <NavLink
+                  href="https://chimonsblog.com/"
+                  target="_blank"
+                  id="blog-tooltip"
+                >
+                  <i className="fas fa-blog"></i>
+                  <p className="d-lg-none d-xl-none">Blog</p>
+                </NavLink>
+                Chimons Blog
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
@@ -130,7 +154,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href="https://twitter.com/chimonsgas?lang=en"
                   target="_blank"
                   id="twitter-tooltip"
                 >
@@ -143,7 +167,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href="http://www.facebook.com/Chimonsgas"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -156,15 +180,15 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  href="https://chimonsblog.com/"
                   target="_blank"
-                  id="instagram-tooltip"
+                  id="blog-tooltip"
                 >
-                  <i className="fab fa-instagram"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
+                  <i className="fas fa-blog fa-2x"></i>
+                  <p className="d-lg-none d-xl-none">Blog</p>
                 </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
+                <UncontrolledTooltip target="#blog-tooltip">
+                  Follow us on our Blog
                 </UncontrolledTooltip>
               </NavItem>
             </Nav>
