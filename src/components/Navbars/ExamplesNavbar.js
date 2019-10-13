@@ -65,10 +65,13 @@ function ExamplesNavbar() {
               <span className="button-bar"></span>
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
-              <DropdownItem header tag="a">
+              <DropdownItem href="/index" tag="a">
+                Home
+              </DropdownItem>
+              <DropdownItem href="/services" tag="a">
                 Services
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
+              <DropdownItem href="/contact-us" tag="a">
                 Contact Us
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
@@ -113,7 +116,7 @@ function ExamplesNavbar() {
           </UncontrolledDropdown>
           <div className="navbar-translate">
             <NavbarBrand
-              // href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
+              href="/index"
               // target="_blank"
               id="navbar-brand"
             >
@@ -142,13 +145,13 @@ function ExamplesNavbar() {
             navbar
           >
             <Nav navbar>
-              {/* <NavItem>
-                <NavLink to="/index" tag={Link}>
-                  About Us
-                </NavLink>
-              </NavItem> */}
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/services" tag={Link}>
+                <i class="fas fa-fire fa-lg">  Services</i>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/contact-us">
                   Contact Us
                 </NavLink>
               </NavItem>

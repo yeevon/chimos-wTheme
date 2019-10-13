@@ -30,14 +30,29 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import SamplePage from "views/Index.js";
+import ContactUs from "views/examples/ContactPage"
+import ServicePage from "views/examples/ServicePage.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Switch>
-      <Route
+        <Route
           path="/index"
           render={props => <LandingPage {...props} />}
+          />
+        <Route
+          path="/contact-us"
+          render={props => <ContactUs {...props} />}
+        />
+        <Route
+          path="/sample"
+          render={props => <SamplePage {...props} />}
+        />
+        <Route
+          path="/services"
+          render={props => <ServicePage {...props} />}
         />
         <Route
           path="/nucleo-icons"

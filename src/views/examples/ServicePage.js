@@ -33,10 +33,10 @@ function LandingPage() {
     <>
       <ExamplesNavbar />
       <div className="wrapper">
-        <LandingPageHeader />
+        {/* <LandingPageHeader /> */}
         <div className="section section-about-us">
           <Container>
-            <Row>
+            {/* <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
                 <h5 className="description">
@@ -57,12 +57,12 @@ function LandingPage() {
                   market penetration and LPG terminals.
                 </p>
               </Col>
-            </Row>
+            </Row> */}
             <div className="separator separator-primary"></div>
             <div className="section-story-overview">
               <Row>
                 <Col md="6">
-                  <div
+                  {/* <div
                     className="image-container image-left"
                     style={{
                       backgroundImage:
@@ -75,7 +75,7 @@ function LandingPage() {
                       the market in that region and beyond." <br></br>
                       <br></br>
                     </p>
-                  </div>
+                  </div> */}
                   <div
                     className="image-container"
                     style={{
@@ -85,13 +85,13 @@ function LandingPage() {
                   ></div>
                 </Col>
                 <Col md="5">
-                  <div
+                  {/* <div
                     className="image-container image-right"
                     style={{
                       backgroundImage:
                         "url(" + require("assets/img/chimons_tanks_2.jpg") + ")"
                     }}
-                  ></div>
+                  ></div> */}
                   <h3>
                     OUR SERVICES
                   </h3>
@@ -138,7 +138,7 @@ function LandingPage() {
                     coastline. 
                   </p>
                 </Col>
-                <Col className="ml-auto mr-auto text-center" md="8">
+                {/* <Col className="ml-auto mr-auto text-center" md="8">
                   <h2 className="title"
                       style={{
                         marginTop: '40px',
@@ -154,7 +154,7 @@ function LandingPage() {
                         "url(" + require("assets/img/chimons_partners.png") + ")",
                     }}
                   ></div>
-                </Col>
+                </Col> */}
               </Row>
             </div>
           </Container>
