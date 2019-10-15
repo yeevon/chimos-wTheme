@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -26,13 +26,9 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 // import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
-import LandingPage from "views/examples/LandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
-import SamplePage from "views/Index.js";
-import ContactUs from "views/examples/ContactPage"
-import ServicePage from "views/examples/ServicePage.js";
+import LandingPage from "website/views/LandingPage.js";
+import ContactUs from "website/views/ContactPage"
+import ServicePage from "website/views/ServicePage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -47,22 +43,9 @@ ReactDOM.render(
           render={props => <ContactUs {...props} />}
         />
         <Route
-          path="/sample"
-          render={props => <SamplePage {...props} />}
-        />
-        <Route
           path="/services"
           render={props => <ServicePage {...props} />}
         />
-        <Route
-          path="/nucleo-icons"
-          render={props => <NucleoIcons {...props} />}
-        />
-        <Route
-          path="/profile-page"
-          render={props => <ProfilePage {...props} />}
-        />
-        <Route path="/login-page" render={props => <LoginPage {...props} />} />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>

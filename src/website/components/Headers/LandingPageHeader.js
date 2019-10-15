@@ -24,7 +24,7 @@ function LandingPageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/chimons_propane_dispenser.jpg") + ")"
+            backgroundImage: "url(" + require("website/assets/img/chimons_propane_dispenser.jpg") + ")"
           }}
           ref={pageHeader}
         ></div>

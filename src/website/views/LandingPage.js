@@ -13,9 +13,9 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DefaultsNavbar from "website/components/Navbars/DefaultNavbar";
+import LandingPageHeader from "website/components/Headers/LandingPageHeader.js";
+import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -31,16 +31,16 @@ function LandingPage() {
   });
   return (
     <>
-      <ExamplesNavbar />
+      <DefaultsNavbar />
       <div className="wrapper">
-        {/* <LandingPageHeader /> */}
+        <LandingPageHeader />
         <div className="section section-about-us">
           <Container>
-            {/* <Row>
+            <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
                 <h5 className="description">
-                  We are Chimons Gas Limited, a wholly owned indigenous 
+                  We are website Gas Limited, a wholly owned indigenous 
                   Oil and Gas company operating in both the upstream and 
                   downstream sectors of the Nigerian Oil and Gas Industry. 
                   Our penchant for exceeding customer expectations in our 
@@ -57,16 +57,16 @@ function LandingPage() {
                   market penetration and LPG terminals.
                 </p>
               </Col>
-            </Row> */}
+            </Row>
             <div className="separator separator-primary"></div>
             <div className="section-story-overview">
               <Row>
                 <Col md="6">
-                  {/* <div
+                  <div
                     className="image-container image-left"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/chimons_install_propane.jpg") + ")"
+                        "url(" + require("website/assets/img/chimons_install_propane.jpg") + ")"
                     }}
                   >
                     <p className="blockquote blockquote-info">
@@ -75,28 +75,28 @@ function LandingPage() {
                       the market in that region and beyond." <br></br>
                       <br></br>
                     </p>
-                  </div> */}
+                  </div>
                   <div
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/chimons_pipeline.jpg") + ")"
+                        "url(" + require("website/assets/img/chimons_pipeline.jpg") + ")"
                     }}
                   ></div>
                 </Col>
                 <Col md="5">
-                  {/* <div
+                  <div
                     className="image-container image-right"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/chimons_tanks_2.jpg") + ")"
+                        "url(" + require("website/assets/img/chimons_tanks_2.jpg") + ")"
                     }}
-                  ></div> */}
+                  ></div>
                   <h3>
                     OUR SERVICES
                   </h3>
                   <p>
-                    At Chimons, we offer a wide range of top notch and 
+                    At website, we offer a wide range of top notch and 
                     tailor made services and solutions to meet your individual 
                     needs and that are of utmost benefits to our numerous 
                     customers and also create an enabling environment for our 
@@ -104,20 +104,20 @@ function LandingPage() {
                     in the industry.
                   </p>
                   <p>
-                    Chimons Gas Limited is firmly committed to providing value 
+                    website Gas Limited is firmly committed to providing value 
                     to its various stakeholders while our dedication to ensuring 
                     that all industry standards are met as we strive to provide 
                     an unbeatable assurance of quality for our products and services.
                   </p>
-                  <h7 style={{
+                  <h5 style={{
                         fontFamily: "Bradley Hand ITC", 
                         fontWeight: "bold"
                       }}>
                     RETAIL MARKETING AND DISTRIBUTION OF LPG AND ITS ACCESSORIES.
-                  </h7>
+                  </h5>
                   <p>
                     The energy demands of LPG consumers nationwide are on the increase, 
-                    which is why at Chimons Gas Limited we are in business to mitigate 
+                    which is why at website Gas Limited we are in business to mitigate 
                     these demands by creating unique solutions to bridge the gap between 
                     costs and want and also demand and supply while also achieving 100% 
                     customer satisfaction. 
@@ -138,7 +138,7 @@ function LandingPage() {
                     coastline. 
                   </p>
                 </Col>
-                {/* <Col className="ml-auto mr-auto text-center" md="8">
+                <Col className="ml-auto mr-auto text-center" md="8">
                   <h2 className="title"
                       style={{
                         marginTop: '40px',
@@ -151,10 +151,10 @@ function LandingPage() {
                       marginTop: '0px',
                       marginBottom: '5px',
                       backgroundImage:
-                        "url(" + require("assets/img/chimons_partners.png") + ")",
+                        "url(" + require("website/assets/img/chimons_partners.png") + ")",
                     }}
                   ></div>
-                </Col> */}
+                </Col>
               </Row>
             </div>
           </Container>

@@ -13,9 +13,8 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DefaultNavbar from "website/components/Navbars/DefaultNavbar";
+import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -31,12 +30,12 @@ function LandingPage() {
   });
   return (
     <>
-      <ExamplesNavbar />
+      <DefaultNavbar />
       <div className="wrapper">
-        <LandingPageHeader />
+        {/* <LandingPageHeader /> */}
         <div className="section section-about-us">
           <Container>
-            <Row>
+            {/* <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
                 <h5 className="description">
@@ -57,12 +56,12 @@ function LandingPage() {
                   market penetration and LPG terminals.
                 </p>
               </Col>
-            </Row>
+            </Row> */}
             <div className="separator separator-primary"></div>
             <div className="section-story-overview">
               <Row>
                 <Col md="6">
-                  <div
+                  {/* <div
                     className="image-container image-left"
                     style={{
                       backgroundImage:
@@ -75,23 +74,23 @@ function LandingPage() {
                       the market in that region and beyond." <br></br>
                       <br></br>
                     </p>
-                  </div>
+                  </div> */}
                   <div
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/chimons_pipeline.jpg") + ")"
+                        "url(" + require("website/assets/img/chimons_pipeline.jpg") + ")"
                     }}
                   ></div>
                 </Col>
                 <Col md="5">
-                  <div
+                  {/* <div
                     className="image-container image-right"
                     style={{
                       backgroundImage:
                         "url(" + require("assets/img/chimons_tanks_2.jpg") + ")"
                     }}
-                  ></div>
+                  ></div> */}
                   <h3>
                     OUR SERVICES
                   </h3>
@@ -109,12 +108,12 @@ function LandingPage() {
                     that all industry standards are met as we strive to provide 
                     an unbeatable assurance of quality for our products and services.
                   </p>
-                  <h5 style={{
+                  <h7 style={{
                         fontFamily: "Bradley Hand ITC", 
                         fontWeight: "bold"
                       }}>
                     RETAIL MARKETING AND DISTRIBUTION OF LPG AND ITS ACCESSORIES.
-                  </h5>
+                  </h7>
                   <p>
                     The energy demands of LPG consumers nationwide are on the increase, 
                     which is why at Chimons Gas Limited we are in business to mitigate 
@@ -138,7 +137,7 @@ function LandingPage() {
                     coastline. 
                   </p>
                 </Col>
-                <Col className="ml-auto mr-auto text-center" md="8">
+                {/* <Col className="ml-auto mr-auto text-center" md="8">
                   <h2 className="title"
                       style={{
                         marginTop: '40px',
@@ -154,7 +153,7 @@ function LandingPage() {
                         "url(" + require("assets/img/chimons_partners.png") + ")",
                     }}
                   ></div>
-                </Col>
+                </Col> */}
               </Row>
             </div>
           </Container>
