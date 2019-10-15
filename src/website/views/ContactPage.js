@@ -13,9 +13,8 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DefaultNavbar from "website/components/Navbars/DefaultNavbar";
+import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -31,7 +30,7 @@ function LandingPage() {
   });
   return (
     <>
-      <ExamplesNavbar />
+      <DefaultNavbar />
       <div className="wrapper">
         {/* <LandingPageHeader /> */}
         {/* <div className="section section-about-us"> */}
