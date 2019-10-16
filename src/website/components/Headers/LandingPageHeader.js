@@ -1,5 +1,5 @@
 import React from "react";
-
+import CarouselSection from "./LandingPageCarousel.js"
 // core components
 
 function LandingPageHeader() {
@@ -20,14 +20,15 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header page-header-small">
-        <div
+      <div className="page-header page-header-small" ref={pageHeader}>
+        {/* <div
           className="page-header-image"
           style={{
             backgroundImage: "url(" + require("website/assets/img/chimons_propane_dispenser.jpg") + ")"
           }}
           ref={pageHeader}
-        ></div>
+        ></div> */}
+        <CarouselSection className="page-header-image"></CarouselSection>
       </div>
     </>
   );
