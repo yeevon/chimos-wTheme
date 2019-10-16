@@ -142,7 +142,7 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/services" tag={Link}>
-                <i class="fas fa-fire fa-lg">  Services</i>
+                <i className="fas fa-fire fa-lg">  Services</i>
                 </NavLink>
               </NavItem>
               <NavItem>
