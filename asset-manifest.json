@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/chimons/static/css/main.b50d7864.chunk.css",
-    "main.js": "/chimons/static/js/main.7170a44c.chunk.js",
-    "main.js.map": "/chimons/static/js/main.7170a44c.chunk.js.map",
-    "runtime~main.js": "/chimons/static/js/runtime~main.78c91b90.js",
-    "runtime~main.js.map": "/chimons/static/js/runtime~main.78c91b90.js.map",
-    "static/js/2.fc7d4256.chunk.js": "/chimons/static/js/2.fc7d4256.chunk.js",
-    "static/js/2.fc7d4256.chunk.js.map": "/chimons/static/js/2.fc7d4256.chunk.js.map",
-    "index.html": "/chimons/index.html",
-    "precache-manifest.66b7c55a55f59ff0bce9b82a38cc6d64.js": "/chimons/precache-manifest.66b7c55a55f59ff0bce9b82a38cc6d64.js",
-    "service-worker.js": "/chimons/service-worker.js",
-    "static/css/main.b50d7864.chunk.css.map": "/chimons/static/css/main.b50d7864.chunk.css.map",
-    "static/media/chimons-large-logo.jpg": "/chimons/static/media/chimons-large-logo.526ebc8b.jpg",
-    "static/media/chimons_install_propane.jpg": "/chimons/static/media/chimons_install_propane.20f2965f.jpg",
-    "static/media/chimons_partners.png": "/chimons/static/media/chimons_partners.6b29c0bf.png",
-    "static/media/chimons_pipeline.jpg": "/chimons/static/media/chimons_pipeline.9350b8d2.jpg",
-    "static/media/chimons_tanks_2.jpg": "/chimons/static/media/chimons_tanks_2.11a623f5.jpg",
-    "static/media/now-ui-kit.scss": "/chimons/static/media/nucleo-outline.8ebec31f.woff2"
+    "main.css": "/chimos-wTheme/static/css/main.498054d5.chunk.css",
+    "main.js": "/chimos-wTheme/static/js/main.79dfa469.chunk.js",
+    "main.js.map": "/chimos-wTheme/static/js/main.79dfa469.chunk.js.map",
+    "runtime~main.js": "/chimos-wTheme/static/js/runtime~main.a78277c4.js",
+    "runtime~main.js.map": "/chimos-wTheme/static/js/runtime~main.a78277c4.js.map",
+    "static/js/2.fc7d4256.chunk.js": "/chimos-wTheme/static/js/2.fc7d4256.chunk.js",
+    "static/js/2.fc7d4256.chunk.js.map": "/chimos-wTheme/static/js/2.fc7d4256.chunk.js.map",
+    "index.html": "/chimos-wTheme/index.html",
+    "precache-manifest.046171454aea5f5fcdf7eb96ea3375a9.js": "/chimos-wTheme/precache-manifest.046171454aea5f5fcdf7eb96ea3375a9.js",
+    "service-worker.js": "/chimos-wTheme/service-worker.js",
+    "static/css/main.498054d5.chunk.css.map": "/chimos-wTheme/static/css/main.498054d5.chunk.css.map",
+    "static/media/chimons-large-logo.jpg": "/chimos-wTheme/static/media/chimons-large-logo.526ebc8b.jpg",
+    "static/media/chimons_install_propane.jpg": "/chimos-wTheme/static/media/chimons_install_propane.20f2965f.jpg",
+    "static/media/chimons_partners.png": "/chimos-wTheme/static/media/chimons_partners.6b29c0bf.png",
+    "static/media/chimons_pipeline.jpg": "/chimos-wTheme/static/media/chimons_pipeline.9350b8d2.jpg",
+    "static/media/chimons_tanks_2.jpg": "/chimos-wTheme/static/media/chimons_tanks_2.11a623f5.jpg",
+    "static/media/now-ui-kit.scss": "/chimos-wTheme/static/media/nucleo-outline.8ebec31f.woff2"
   }
 }
