@@ -13,16 +13,23 @@ import {
 // core components
 
 const items = [
-  {
-    src: require("website/assets/img/chimons_propane_dispenser.jpg"),
-  },
-  {
-    src: require("website/assets/img/chimons_burner.jpg"),
-  },
-  {
-    src: require("website/assets/img/chimons_onSite_2.png"),
-  }
+  "Construction of LPG Refilling Plants",
+  "Environmental, Drilling and Pipeline Engineering",
+  "Facilities installation and maintenance",
+  "Procurement of OCTG"
 ];
+
+// [
+//   {
+//     src: require("website/assets/img/chimons_propane_dispenser.jpg"),
+//   },
+//   {
+//     src: require("website/assets/img/chimons_burner.jpg"),
+//   },
+//   {
+//     src: require("website/assets/img/chimons_onSite_2.png"),
+//   }
+// ];
 
 function CarouselSection() {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -49,10 +56,10 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section" id="carousel">
+      <div className="section1" id="carousel">
         <Container>
           <Row className="justify-content-center">
-            <Col lg="8" md="12">
+            <Col>
               <Carousel
                 activeIndex={activeIndex}
                 next={next}
@@ -68,12 +75,13 @@ function CarouselSection() {
                     <CarouselItem
                       onExiting={onExiting}
                       onExited={onExited}
-                      key={item.src}
+                      key={item}
                     >
-                      <img src={item.src} alt={item.altText} />
-                      <div className="carousel-caption d-none d-md-block">
+                      <span className="carousel-text">{item}</span>
+                      {/* <img src={item.src} alt={item.altText} /> */}
+                      {/* <div className="carousel-caption d-none d-md-block">
                         <h5>{item.caption}</h5>
-                      </div>
+                      </div> */}
                     </CarouselItem>
                   );
                 })}

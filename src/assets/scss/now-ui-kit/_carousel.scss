@@ -7,8 +7,9 @@
 
 .carousel{
     .carousel-inner{
-        box-shadow: $box-shadow-raised;
+        // box-shadow: $box-shadow-raised;
         border-radius: $border-radius-small;
+        color: black;
     }
 
     .card {
