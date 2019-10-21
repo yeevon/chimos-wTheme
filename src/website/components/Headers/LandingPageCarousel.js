@@ -56,7 +56,7 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section1" id="carousel">
+      <div className="section1 carousel-fade" id="carousel">
         <Container>
           <Row className="justify-content-center">
             <Col>

@@ -35,7 +35,7 @@ ReactDOM.render(
     <Switch>
       <Switch>
         <Route
-          path="/index"
+          path="/chimos-wTheme"
           render={props => <LandingPage {...props} />}
           />
         <Route
@@ -46,8 +46,8 @@ ReactDOM.render(
           path="/services"
           render={props => <ServicePage {...props} />}
         />
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
+        <Redirect to="/chimos-wTheme" />
+        <Redirect from="/" to="/chimos-wTheme" />
       </Switch>
     </Switch>
   </BrowserRouter>,
