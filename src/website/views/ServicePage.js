@@ -13,10 +13,10 @@ import {
 } from "reactstrap";
 
 // core components
-import DefaultNavbar from "website/components/Navbars/DefaultNavbar";
+import DefaultNavbar from "website/components/Navbars/NonTransitionNavbar.js";
 import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
-function LandingPage() {
+function ServicePage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
@@ -32,49 +32,13 @@ function LandingPage() {
     <>
       <DefaultNavbar />
       <div className="wrapper">
-        {/* <LandingPageHeader /> */}
         <div className="section section-about-us">
           <Container>
-            {/* <Row>
-              <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Who we are?</h2>
-                <h5 className="description">
-                  We are Chimons Gas Limited, a wholly owned indigenous 
-                  Oil and Gas company operating in both the upstream and 
-                  downstream sectors of the Nigerian Oil and Gas Industry. 
-                  Our penchant for exceeding customer expectations in our 
-                  service delivery has enabled us build a reputation as a 
-                  world-class organization, dedicated to promoting excellent 
-                  service delivery to all our clients.
-                </h5>
-                <p>
-                  As one of the major LPG Off-takers with NLNG, our 
-                  business focus is the supply and distribution of 
-                  petroleum products nationwide as we have distribution 
-                  outlets as well as gas bottling plants in Nigeria 
-                  while affiliated to dealers’ the world over with deep 
-                  market penetration and LPG terminals.
-                </p>
-              </Col>
-            </Row> */}
             <div className="separator separator-primary"></div>
             <div className="section-story-overview">
+            <h3>OUR SERVICES</h3>
               <Row>
                 <Col md="6">
-                  {/* <div
-                    className="image-container image-left"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/chimons_install_propane.jpg") + ")"
-                    }}
-                  >
-                    <p className="blockquote blockquote-info">
-                      "We are in the process of constructing a 4000mt 
-                      LPG terminal in Delta State that would cater for 
-                      the market in that region and beyond." <br></br>
-                      <br></br>
-                    </p>
-                  </div> */}
                   <div
                     className="image-container"
                     style={{
@@ -83,17 +47,32 @@ function LandingPage() {
                     }}
                   ></div>
                 </Col>
-                <Col md="5">
-                  {/* <div
-                    className="image-container image-right"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/chimons_tanks_2.jpg") + ")"
-                    }}
-                  ></div> */}
+                <Col className="service-list" md="5">
                   <h3>
-                    OUR SERVICES
+                    Upstream and downstream LPG services
                   </h3>
+                  <h3>
+                    LPG Sales – Bulk and retail
+                  </h3>
+                  <h3>
+                    Sales of LPG accessories
+                  </h3>
+                  <h3>
+                    Cylinder sales of all sizes
+                  </h3>
+                  <h3>
+                    LPG transportation and logistics
+                  </h3>
+                  <h3>
+                    Reticulation
+                  </h3>
+                  <h3>
+                    Storage
+                  </h3>
+                </Col>
+              </Row>
+              <Row className="top-margin">
+                <Col className="col-centered" md="5">
                   <p>
                     At Chimons, we offer a wide range of top notch and 
                     tailor made services and solutions to meet your individual 
@@ -137,90 +116,8 @@ function LandingPage() {
                     coastline. 
                   </p>
                 </Col>
-                {/* <Col className="ml-auto mr-auto text-center" md="8">
-                  <h2 className="title"
-                      style={{
-                        marginTop: '40px',
-                        marginBottom: '20px'
-                      }}>Our Partners</h2>
-                  <div
-                    className="image-container"
-                    style={{
-                      height: '435px',
-                      marginTop: '0px',
-                      marginBottom: '5px',
-                      backgroundImage:
-                        "url(" + require("assets/img/chimons_partners.png") + ")",
-                    }}
-                  ></div>
-                </Col> */}
               </Row>
             </div>
-          </Container>
-        </div>
-        <div className="section section-contact-us text-center">
-          <Container>
-            <h2 className="title">Want to work with us?</h2>
-            <p className="description">Your project is very important to us.</p>
-            <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-                <InputGroup
-                  className={
-                    "input-lg" + (firstFocus ? " input-group-focus" : "")
-                  }
-                >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons users_circle-08"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="First Name..."
-                    type="text"
-                    onFocus={() => setFirstFocus(true)}
-                    onBlur={() => setFirstFocus(false)}
-                  ></Input>
-                </InputGroup>
-                <InputGroup
-                  className={
-                    "input-lg" + (lastFocus ? " input-group-focus" : "")
-                  }
-                >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons ui-1_email-85"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Email..."
-                    type="text"
-                    onFocus={() => setLastFocus(true)}
-                    onBlur={() => setLastFocus(false)}
-                  ></Input>
-                </InputGroup>
-                <div className="textarea-container">
-                  <Input
-                    cols="80"
-                    name="name"
-                    placeholder="Type a message..."
-                    rows="4"
-                    type="textarea"
-                  ></Input>
-                </div>
-                <div className="send-button">
-                  <Button
-                    block
-                    className="btn-round"
-                    color="info"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                    size="lg"
-                  >
-                    Send Message
-                  </Button>
-                </div>
-              </Col>
-            </Row>
           </Container>
         </div>
         <DefaultFooter />
@@ -229,4 +126,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default ServicePage;
