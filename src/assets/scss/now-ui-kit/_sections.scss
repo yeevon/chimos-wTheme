@@ -7,10 +7,30 @@
         margin-top: $margin-base-vertical;
     }
 }
+.section1{
+    width: 325px;
+    position: relative;
+    text-align: center;
+    font-size: 38px;
+    top: 60px;
+    left: 562px;
+}
+.carousel-indicators{
+    display: contents;
+}
 .section-navbars{
     padding-bottom: 0;
 }
-
+.top-margin{
+    margin-top: 30px;
+}
+.col-centered{
+    display: contents;
+    margin-top: 5px;
+}
+.service-list{
+    font-family: "Berlin Sans FB Demi", "Gill Sans", sans-serif;
+}
 .section-full-screen{
     height: 100vh;
 }
@@ -131,7 +151,7 @@
     padding: 50px 0;
 
     .image-container{
-        height: 700px;
+        height: 470px;
         position: relative;
         background-position: center center;
         background-size: cover;

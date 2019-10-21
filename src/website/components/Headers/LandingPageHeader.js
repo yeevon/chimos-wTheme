@@ -21,14 +21,15 @@ function LandingPageHeader() {
   return (
     <>
       <div className="page-header page-header-small" ref={pageHeader}>
-        {/* <div
+        <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("website/assets/img/chimons_propane_dispenser.jpg") + ")"
+            backgroundImage: "url(" + require("website/assets/img/chimons-large-logo.jpg") + ")"
           }}
           ref={pageHeader}
-        ></div> */}
-        <CarouselSection className="page-header-image"></CarouselSection>
+        >
+          <CarouselSection className="page-header-image"></CarouselSection>
+        </div>
       </div>
     </>
   );
