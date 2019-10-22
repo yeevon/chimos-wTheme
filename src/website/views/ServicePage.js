@@ -48,27 +48,38 @@ function ServicePage() {
                   ></div>
                 </Col>
                 <Col className="service-list" md="5">
-                  <h3>
-                    Upstream and downstream LPG services
-                  </h3>
-                  <h3>
-                    LPG Sales – Bulk and retail
-                  </h3>
-                  <h3>
-                    Sales of LPG accessories
-                  </h3>
-                  <h3>
-                    Cylinder sales of all sizes
-                  </h3>
-                  <h3>
-                    LPG transportation and logistics
-                  </h3>
-                  <h3>
-                    Reticulation
-                  </h3>
-                  <h3>
-                    Storage
-                  </h3>
+                  <div className="top-div">
+                    <h3 >
+                      &#8227;
+                      Upstream and downstream LPG services
+                    </h3>
+                    <h3>
+                      &#8227;
+                      LPG Sales – Bulk and retail
+                    </h3>
+                    <h3>
+                      &#8227;
+                      Sales of LPG accessories
+                    </h3>
+                  </div>
+                  <div className="bottom div">
+                    <h3>
+                      &#8227;
+                      Cylinder sales of all sizes
+                    </h3>
+                    <h3>
+                      &#8227;
+                      LPG transportation and logistics
+                    </h3>
+                    <h3>
+                      &#8227;
+                      Reticulation
+                    </h3>
+                    <h3>
+                      &#8227;
+                      Storage
+                    </h3>
+                  </div>
                 </Col>
               </Row>
               <Row className="top-margin">
