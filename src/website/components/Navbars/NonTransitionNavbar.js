@@ -46,13 +46,13 @@ function ExamplesNavbar() {
               <span className="button-bar"></span>
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
-              <DropdownItem href="/index" tag="a">
+              <DropdownItem href="/chimos-wTheme/index" tag="a">
                 Home
               </DropdownItem>
-              <DropdownItem href="/services" tag="a">
+              <DropdownItem href="/chimos-wTheme/services" tag="a">
                 Services
               </DropdownItem>
-              <DropdownItem href="/contact-us" tag="a">
+              <DropdownItem href="/chimos-wTheme/contact-us" tag="a">
                 Contact Us
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
@@ -96,7 +96,7 @@ function ExamplesNavbar() {
           </UncontrolledDropdown>
           <div className="navbar-translate">
             <NavbarBrand
-              href="/index"
+              href="/chimos-wTheme/index"
               id="navbar-brand"
             >
               Chimons Gas Limited
@@ -122,12 +122,12 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/services" tag={Link}>
+                <NavLink to="/chimos-wTheme/services" tag={Link}>
                 <i className="fas fa-fire fa-lg">  Services</i>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact-us">
+                <NavLink href="/chimos-wTheme/contact-us">
                   Contact Us
                 </NavLink>
               </NavItem>
