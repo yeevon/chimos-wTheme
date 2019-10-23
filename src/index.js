@@ -35,19 +35,19 @@ ReactDOM.render(
     <Switch>
       <Switch>
         <Route
-          path="/chimos-wTheme"
+          path="/chimos-wTheme/index"
           render={props => <LandingPage {...props} />}
           />
         <Route
-          path="/contact-us"
+          path="/chimos-wTheme/contact-us"
           render={props => <ContactUs {...props} />}
         />
         <Route
-          path="/services"
+          path="/chimos-wTheme/services"
           render={props => <ServicePage {...props} />}
         />
-        <Redirect to="/chimos-wTheme" />
-        <Redirect from="/" to="/chimos-wTheme" />
+        {/* <Redirect to="/chimos-wTheme/index" /> */}
+        <Redirect from="/chimos-wTheme" to="/chimos-wTheme/index" />
       </Switch>
     </Switch>
   </BrowserRouter>,

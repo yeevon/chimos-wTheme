@@ -16,6 +16,7 @@ import {
 import DefaultNavbar from "website/components/Navbars/NonTransitionNavbar.js";
 import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
+
 function ServicePage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
@@ -28,6 +29,9 @@ function ServicePage() {
       document.body.classList.remove("sidebar-collapse");
     };
   });
+
+  document.title += " - Services";
+
   return (
     <>
       <DefaultNavbar />
@@ -48,27 +52,38 @@ function ServicePage() {
                   ></div>
                 </Col>
                 <Col className="service-list" md="5">
-                  <h3>
-                    Upstream and downstream LPG services
-                  </h3>
-                  <h3>
-                    LPG Sales – Bulk and retail
-                  </h3>
-                  <h3>
-                    Sales of LPG accessories
-                  </h3>
-                  <h3>
-                    Cylinder sales of all sizes
-                  </h3>
-                  <h3>
-                    LPG transportation and logistics
-                  </h3>
-                  <h3>
-                    Reticulation
-                  </h3>
-                  <h3>
-                    Storage
-                  </h3>
+                  <div className="top-div">
+                    <h3 >
+                      &#8227;
+                      Upstream and downstream LPG services
+                    </h3>
+                    <h3>
+                      &#8227;
+                      LPG Sales – Bulk and retail
+                    </h3>
+                    <h3>
+                      &#8227;
+                      Sales of LPG accessories
+                    </h3>
+                  </div>
+                  <div className="bottom div">
+                    <h3>
+                      &#8227;
+                      Cylinder sales of all sizes
+                    </h3>
+                    <h3>
+                      &#8227;
+                      LPG transportation and logistics
+                    </h3>
+                    <h3>
+                      &#8227;
+                      Reticulation
+                    </h3>
+                    <h3>
+                      &#8227;
+                      Storage
+                    </h3>
+                  </div>
                 </Col>
               </Row>
               <Row className="top-margin">
@@ -87,12 +102,12 @@ function ServicePage() {
                     that all industry standards are met as we strive to provide 
                     an unbeatable assurance of quality for our products and services.
                   </p>
-                  <h7 style={{
+                  <h6 style={{
                         fontFamily: "Bradley Hand ITC", 
                         fontWeight: "bold"
                       }}>
                     RETAIL MARKETING AND DISTRIBUTION OF LPG AND ITS ACCESSORIES.
-                  </h7>
+                  </h6>
                   <p>
                     The energy demands of LPG consumers nationwide are on the increase, 
                     which is why at Chimons Gas Limited we are in business to mitigate 

@@ -13,10 +13,10 @@ import {
 // core components
 
 const items = [
-  "Construction of LPG Refilling Plants",
-  "Environmental, Drilling and Pipeline Engineering",
-  "Facilities installation and maintenance",
-  "Procurement of OCTG"
+  {caption: "Construction of LPG Refilling Plants"},
+  {caption: "Environmental, Drilling and Pipeline Engineering"},
+  {caption: "Facilities installation and maintenance"},
+  {caption: "Procurement of OCTG"}
 ];
 
 // [
@@ -56,7 +56,7 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section1 carousel-fade" id="carousel">
+      <div className="section1" id="carousel">
         <Container>
           <Row className="justify-content-center">
             <Col>
@@ -75,9 +75,9 @@ function CarouselSection() {
                     <CarouselItem
                       onExiting={onExiting}
                       onExited={onExited}
-                      key={item}
+                      key={item.caption}
                     >
-                      <span className="carousel-text">{item}</span>
+                      <span className="carousel-text">{item.caption}</span>
                       {/* <img src={item.src} alt={item.altText} /> */}
                       {/* <div className="carousel-caption d-none d-md-block">
                         <h5>{item.caption}</h5>
