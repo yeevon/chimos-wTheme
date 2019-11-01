@@ -15,6 +15,18 @@
     top: 60px;
     left: 562px;
 }
+.contact-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 25%;
+}
+.need{
+    padding: 0%;
+}
+.contat-address{
+    max-width: 50%;
+}
 .carousel-indicators{
     display: contents;
 }

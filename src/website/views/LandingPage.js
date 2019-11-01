@@ -36,7 +36,7 @@ function LandingPage() {
         <LandingPageHeader />
         <div className="section section-about-us">
           <Container>
-            <Row>
+            <Row className="contact-row">
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
                 <h5 className="description">

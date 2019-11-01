@@ -33,39 +33,13 @@ function ContactPage() {
     <>
       <DefaultNavbar />
       <div className="wrapper">
-        <div className="section section-contact-us">
-          <Container>
-            <Row>
-              <Col className="ml-auto mr-auto contat-address" md="8">
-                <h4 className="contat-title">Home Office</h4>
-                <div className="contact-section">
-                  <p className="contact-row">Address:</p>
-                  <p> 
-                    7th Floor, Fortune Towers, <br/>
-                    27/29 Adeyemo Alakija Street <br/>
-                    Victoria Island, <br/>
-                    Lagos
-                  </p>
-                </div>
-                <h4 className="contat-title">Branch Office</h4>
-                <div className="contact-section">
-                  <p className="contact-row">Address:</p>
-                  <p> 
-                    Old Ojo Road, <br/>
-                    By Navy Town Junction, <br/>
-                    Alakija, Lagos.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        <div className="section section-contact-us text-center">
+        <div className="section">
+            <Row className="contact-row">
+            <Col className="text-center ml-auto mr-auto contat-address" lg="6" md="8">
+        <div className="section section-contact-us text-center need">
           <Container>
             <h2 className="title">Need Assistance?</h2>
             <p className="description">Please send us an email.</p>
-            <Row>
-              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
                 <InputGroup
                   className={
                     "input-lg" + (firstFocus ? " input-group-focus" : "")
@@ -121,18 +95,38 @@ function ContactPage() {
                     Send Message
                   </Button>
                 </div>
-              </Col>
-            </Row>
           </Container>
-          <div className="container2">
-            <h2 className="title contact-phone">Or Call Us:</h2>
-            <h5> 
+        </div>
+        </Col>
+              <Col className="ml-auto mr-auto contat-address right" md="8">
+                <h4 className="contat-title">Home Office</h4>
+                <div className="contact-section">
+                  <p> 
+                    7th Floor, Fortune Towers, <br/>
+                    27/29 Adeyemo Alakija Street <br/>
+                    Victoria Island, <br/>
+                    Lagos
+                  </p>
+                </div>
+                <h4 className="contat-title">Branch Office</h4>
+                <div className="contact-section">
+                  <p> 
+                    Old Ojo Road, <br/>
+                    By Navy Town Junction, <br/>
+                    Alakija, Lagos.
+                  </p>
+                </div>
+                <div className="container2">
+            <h4 className="contact-phone">Or Call Us</h4>
+            <p> 
               01-4539226 <br/>
               08099933622 
-            </h5>
+            </p>
           </div>
-        </div>
-        <DefaultFooter />
+              </Col>
+        </Row>
+      </div>
+      <DefaultFooter />
       </div>
     </>
   );
