@@ -36,7 +36,7 @@ function ContactPage() {
         <div className="section">
           <Row className="contact-row">
             <Col className="text-center ml-auto mr-auto contat-address" lg="6" md="8">
-              <div className="section section-contact-us text-center need">
+              <div className="section section-contact-us text-center">
                 <Container>
                   <h2 className="title">Need Assistance?</h2>
                   <p className="description">Please send us an email.</p>

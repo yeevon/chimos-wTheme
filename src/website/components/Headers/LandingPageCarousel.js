@@ -11,13 +11,21 @@ import {
 // core components
 
 const items = [
-  {header: " ",
+  {
+    key: 1,
+    header: " ",
     caption: "Construction of LPG Refilling Plants"},
-  {header: " ",
+  {
+    key: 2,
+    header: " ",
     caption: "Environmental, Drilling and Pipeline Engineering"},
-  {header:  " ",
+  {
+    key: 3,
+    header:  " ",
     caption: "Facilities installation and maintenance"},
-  {header:  " ",
+  {
+    key: 4  ,
+    header:  " ",
     caption: "Procurement of OCTG"}
 ];
 
@@ -36,10 +44,10 @@ const items = [
 function CarouselSection() {
   return (
     <>
-      <div className="section1" id="carousel">
+      <div className="section" id="carousel">
         <Container>
           <Row className="justify-content-center">
-            <Col className="caro-alignment">
+            <Col>
               <UncontrolledCarousel
                 items={items}
               >
