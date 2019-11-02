@@ -1,3 +1,16 @@
+.carousel-caption{
+    color: black;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.carousel-caption > p{
+    font-size: .8em;
+    font-weight: 600;
+}
 .section{
     padding: 70px 0;
     position: relative;
@@ -329,7 +342,9 @@
         left: 40%;
     }
 }
-
+.caro-alignment{
+    left: -18%;
+}
 .section-images{
     max-height: 670px;
     height: 670px;
