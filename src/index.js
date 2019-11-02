@@ -48,6 +48,7 @@ ReactDOM.render(
         />
         {/* <Redirect to="/chimos-wTheme/index" /> */}
         <Redirect from="/chimos-wTheme" to="/chimos-wTheme/index" />
+        <Redirect from="/" to="/chimos-wTheme/index" />
       </Switch>
     </Switch>
   </BrowserRouter>,
