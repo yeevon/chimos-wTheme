@@ -88,7 +88,8 @@ function LandingPage() {
                   <div
                     className="image-container"
                     style={{
-                      height: '435px',
+                      height: '27.19rem',
+                      minWidth: '44.44rem',
                       marginTop: '0px',
                       marginBottom: '5px',
                       backgroundImage:

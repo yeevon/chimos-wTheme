@@ -41,10 +41,14 @@ const items = [
 //   }
 // ];
 
+
+
 function CarouselSection() {
+  let section = 'section';
+  console.log('browser name: ' + navigator.product)
   return (
     <>
-      <div className="section" id="carousel">
+      <div className={section} id="carousel">
         <Container>
           <Row className="justify-content-center">
             <Col>
