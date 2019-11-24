@@ -18,13 +18,20 @@ function LandingPageHeader() {
       };
     }
   });
+
+  let getBackgroundImage = () =>{
+    if (window.innerWidth < 768) {
+      return "url(" + require("website/assets/img/chimons-small-logo.jpg") + ")"
+    }
+    else return "url(" + require("website/assets/img/chimons-large-logo.jpg") + ")"
+  }
   return (
     <>
       <div className="page-header page-header-small" ref={pageHeader}>
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("website/assets/img/chimons-large-logo.jpg") + ")"
+            backgroundImage: getBackgroundImage()
           }}
           ref={pageHeader}
         >

@@ -132,7 +132,13 @@
             }
         }
     }
-
+    .navbar-brand{
+        display: inline-flex;
+    }
+    .navbar-brand > div {
+        height: 55px;
+        width: 332px;
+    }
     .button-dropdown{
         .navbar-toggler-bar:nth-child(2){
             width: 1.0625rem;
@@ -171,6 +177,9 @@
             border: 1px solid $default-color;
         }
     }
+}
+button.navbar-toggler.navbar-toggler > span.navbar-toggler-bar {
+    background: #2c3b60;
 }
 .bg-default{
     background-color: $default-color !important;
