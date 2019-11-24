@@ -132,7 +132,13 @@
             }
         }
     }
-
+    .navbar-brand{
+        display: inline-flex;
+    }
+    .navbar-brand > div {
+        height: 55px;
+        width: 332px;
+    }
     .button-dropdown{
         .navbar-toggler-bar:nth-child(2){
             width: 1.0625rem;
