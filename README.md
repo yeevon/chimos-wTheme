@@ -1,3 +1,10 @@
+Deploying Github pages site correctly{
+	1. run npm build
+	2. copy src > views > 404.html file into build folder
+	3. copy content of src > views > routescript.html into index.html - header
+	4. run npm deploy
+}
+
 Notes: {
 
 	Needed Higher resolution images with new Chimons logo - Provided
