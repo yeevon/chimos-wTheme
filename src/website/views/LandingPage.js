@@ -51,6 +51,13 @@ function LandingPage() {
                 </p>
               </Col>
             </Row>
+            <div
+              className="image-container image-left"
+              style={{
+                backgroundImage:
+                  "url(" + require("website/assets/img/chimons_install_propane.jpg") + ")"
+              }}
+            ></div>
             <div className="separator separator-primary"></div>
             <div className="section-story-overview">
               <Row>
@@ -88,7 +95,8 @@ function LandingPage() {
                   <div
                     className="image-container"
                     style={{
-                      height: '435px',
+                      height: '27.19rem',
+                      minWidth: '44.44rem',
                       marginTop: '0px',
                       marginBottom: '5px',
                       backgroundImage:

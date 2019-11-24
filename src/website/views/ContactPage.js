@@ -13,7 +13,7 @@ Col
 } from "reactstrap";
 
 // core components
-import DefaultNavbar from "website/components/Navbars/NonTransitionNavbar";
+import DefaultNavbar from "website/components/Navbars/DefaultNavbar";
 import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
 function ContactPage() {

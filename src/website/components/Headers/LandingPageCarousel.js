@@ -1,4 +1,5 @@
 import React from "react";
+import is from "is_js";
 
 // reactstrap components
 import {
@@ -41,10 +42,15 @@ const items = [
 //   }
 // ];
 
+
+
 function CarouselSection() {
+
+  let browser = is.edge() ? 'section browser edge' : 'section browser';
+
   return (
     <>
-      <div className="section" id="carousel">
+      <div className={browser} id="carousel">
         <Container>
           <Row className="justify-content-center">
             <Col>

@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 
 // core components
-import DefaultNavbar from "website/components/Navbars/NonTransitionNavbar.js";
+import DefaultNavbar from "website/components/Navbars/DefaultNavbar.js";
 import DefaultFooter from "website/components/Footers/DefaultFooter.js";
 
 

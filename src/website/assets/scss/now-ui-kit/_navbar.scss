@@ -1,9 +1,9 @@
 .navbar{
     padding-top: $navbar-padding-base;
     padding-bottom: $navbar-padding-base;
-    min-height: 53px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    min-height: 3.3125rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0px 0px 1.25rem 0px rgba(0, 0, 0, 0.15);
 
     a{
         vertical-align: middle;
@@ -18,7 +18,7 @@
     p{
         display: inline-block;
         margin: 0;
-        line-height: 21px;
+        line-height: 1.3125rem;
         font-weight: inherit;
         font-size: inherit;
     }
@@ -29,8 +29,8 @@
             left: 0;
             right: 0;
             margin: 0 auto;
-            width: 49px;
-            top: -4px;
+            width: 3.0625rem;
+            top: -0.25rem;
         }
 
         .nav-link.btn{
@@ -53,27 +53,27 @@
 
             i.fab + p,
             i.now-ui-icons + p{
-                margin-left: 3px;
+                margin-left: 0.1875rem;
             }
 
             i.fab,
             i.now-ui-icons{
                 font-size: 18px;
                 position: relative;
-                top: 3px;
+                top: 0.1875rem;
                 text-align: center;
-                width: 21px;
+                width: 1.3125rem;
             }
 
             i.now-ui-icons{
-                top: 4px;
+                top: 0.25rem;
                 font-size: 16px;
             }
 
             &.profile-photo{
                 .profile-photo-small{
-                    width: 27px;
-                    height: 27px;
+                    width: 1.6875rem;
+                    height: 1.6875rem;
                 }
             }
 
@@ -93,8 +93,8 @@
     }
 
     .logo-container{
-        width: 27px;
-        height: 27px;
+        width: 1.6875rem;
+        height: 1.6875rem;
         overflow: hidden;
         margin: 0 auto;
         border-radius: 50%;
@@ -110,8 +110,8 @@
         }
 
     .navbar-toggler{
-        width: 37px;
-        height: 27px;
+        width: 2.3125rem;
+        height: 1.6875rem;
         outline: 0;
         cursor: pointer;
 
@@ -122,20 +122,26 @@
         }
 
         .navbar-toggler-bar.middle-bar{
-          width: 17px;
+          width: 1.0625rem;
           transition: width .2s linear;
         }
 
         &:hover{
             & .navbar-toggler-bar.middle-bar{
-                width: 22px;
+                width: 1.375rem;
             }
         }
     }
-
+    .navbar-brand{
+        display: inline-flex;
+    }
+    .navbar-brand > div {
+        height: 55px;
+        width: 332px;
+    }
     .button-dropdown{
         .navbar-toggler-bar:nth-child(2){
-            width: 17px;
+            width: 1.0625rem;
         }
     }
 
@@ -143,7 +149,7 @@
         background-color: $transparent-bg !important;
         box-shadow: none;
         color: $white-color;
-        padding-top: 20px !important;
+        padding-top: 1.25rem !important;
     }
 
     &.bg-white:not(.navbar-transparent){
@@ -172,7 +178,9 @@
         }
     }
 }
-
+button.navbar-toggler.navbar-toggler > span.navbar-toggler-bar {
+    background: #2c3b60;
+}
 .bg-default{
     background-color: $default-color !important;
 }

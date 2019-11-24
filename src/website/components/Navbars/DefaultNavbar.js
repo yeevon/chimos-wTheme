@@ -49,7 +49,7 @@ function ExamplesNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
+      <Navbar className={"sticky-top navbar-default" + navbarColor} color="info" expand="lg">
         <Container>
           <UncontrolledDropdown className="button-dropdown">
             <DropdownToggle
@@ -118,7 +118,10 @@ function ExamplesNavbar() {
               href="/chimos-wTheme/index"
               id="navbar-brand"
             >
-              Chimons Gas Limited
+              <div style={{
+                backgroundImage:
+                  "url(" + require("website/assets/img/tiny_logo.png") + ")"
+              }} />
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
