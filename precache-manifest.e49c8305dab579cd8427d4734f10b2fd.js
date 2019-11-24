@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddecacdbe0f7e8cd02b89fa055b6bf34",
+    "revision": "9d78ce577e6d16243f41aeee20205c04",
     "url": "/chimos-wTheme/index.html"
   },
   {
-    "revision": "41ef5fe4675906571b13",
-    "url": "/chimos-wTheme/static/css/main.ae72231a.chunk.css"
+    "revision": "dfa44b64a13967069f24",
+    "url": "/chimos-wTheme/static/css/main.1bcabe1d.chunk.css"
   },
   {
-    "revision": "f498f3bde254b014cb43",
-    "url": "/chimos-wTheme/static/js/2.97283d46.chunk.js"
+    "revision": "2337046e18fa6001f9d9",
+    "url": "/chimos-wTheme/static/js/2.189cddba.chunk.js"
   },
   {
-    "revision": "41ef5fe4675906571b13",
-    "url": "/chimos-wTheme/static/js/main.93efb0b3.chunk.js"
+    "revision": "dfa44b64a13967069f24",
+    "url": "/chimos-wTheme/static/js/main.c3b3a0f4.chunk.js"
   },
   {
     "revision": "d1abd89b14ca884e42f0",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "526ebc8b2f74c460c5413a402ae03c04",
     "url": "/chimos-wTheme/static/media/chimons-large-logo.526ebc8b.jpg"
-  },
-  {
-    "revision": "057a7272477a646a51add1427970ed1a",
-    "url": "/chimos-wTheme/static/media/chimons-small-logo.057a7272.jpg"
   },
   {
     "revision": "20f2965f90cfdf53ba44100a9118436b",
