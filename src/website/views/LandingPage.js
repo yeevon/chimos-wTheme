@@ -92,17 +92,32 @@ function LandingPage() {
                         marginTop: '185px',
                         marginBottom: '20px'
                       }}>Our Partners</h2>
-                  <div
-                    className="image-container"
-                    style={{
-                      height: '27.19rem',
-                      minWidth: '44.44rem',
-                      marginTop: '0px',
-                      marginBottom: '5px',
-                      backgroundImage:
-                        "url(" + require("website/assets/img/chimons_partners.png") + ")",
-                    }}
-                  ></div>
+                  <div>
+                    <div
+                      className="image-container"
+                      style={{
+                        backgroundImage:
+                          "url(" + require("website/assets/img/partner_1.png") + ")",
+                      }} />
+                    <div
+                      className="image-container"
+                      style={{
+                        backgroundImage:
+                          "url(" + require("website/assets/img/partners_2.png") + ")",
+                      }} />
+                    <div
+                      className="image-container"
+                      style={{
+                        backgroundImage:
+                          "url(" + require("website/assets/img/partners_3.png") + ")",
+                      }} />
+                    <div
+                      className="image-container"
+                      style={{
+                        backgroundImage:
+                          "url(" + require("website/assets/img/partners_4.png") + ")",
+                      }} />
+                  </div>
                 </Col>
               </Row>
             </div>
